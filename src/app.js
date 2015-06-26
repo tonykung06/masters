@@ -13,6 +13,6 @@ app.extend({
     this.router = new Router()
     this.router.history.start()
   }
-})
+});
 
 app.init()
