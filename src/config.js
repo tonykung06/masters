@@ -7,6 +7,11 @@ const config = {
   'labelr.surge.sh': {
     authUrl: 'https://labelr-production.herokuapp.com/authenticate',
     clientId: '9cc77faf5ffc6f6f9b9a'
+  },
+
+  'tonykung.surge.sh': {
+    authUrl: 'https://labelr-production.herokuapp.com/authenticate',
+    clientId: '9cc77faf5ffc6f6f9b9a'
   }
 }[window.location.hostname]
 
